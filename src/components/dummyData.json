@@ -1,0 +1,42 @@
+{
+    "categories":[
+        {
+            "id":1,
+            "name":"Entradas",
+            "dishes":[
+                {
+                    "id":11,
+                    "name":"Guacamole con Totopos",
+                    "description":"El guacamole fresco con totopos crujientes es la combinación perfecta de aguacates cremosos, tomates jugosos, cebolla y un toque de limón, servido con chips de maíz dorados",
+                    "price":25000,
+                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1721408342/Default_Vibrant_high_dynamic_range_HDR_photography_of_a_mouthw_2_ffdltp.jpg"
+                },
+                {
+                    "id":12,
+                    "name":"Sopa de Tortillas",
+                    "description":"Esta sopa reconfortante mezcla caldo de pollo, tiras de tortilla frita, chiles, tomate, y se adorna con crema, queso y aguacate, ofreciendo una explosión de sabores en cada cucharada",
+                    "price":20000,
+                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722350355/sopa-de-tortillas_c4m83o.jpg"
+                },
+                {
+                    "id":13,
+                    "name":"Tostadas de Tinga de Pollo",
+                    "description":"Tostadas crujientes cubiertas con una mezcla jugosa de pollo desmenuzado en salsa de tomate y chipotle, coronadas con lechuga fresca, crema, queso y aguacate",
+                    "price":28000,
+                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351505/tostada-tinga-pollo_vzgrct.jpg"
+                },
+                {
+                    "id":14,
+                    "name":"Nachos con Queso y Jalapeños",
+                    "description":"Totopos dorados bañados en una mezcla de quesos derretidos, jalapeños picantes, frijoles refritos y guacamole, perfectos para compartir",
+                    "price":30000,
+                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/nachos-con-queso-jalapenos_jgmsiq.jpg"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Platos fuertes"
+        }
+    ]
+}
