@@ -1,0 +1,5 @@
+.card-dish{
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+}

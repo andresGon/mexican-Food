@@ -1,30 +1,28 @@
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import dummyData from './dummyData.json';
+import CardDish from "./card/cardDish";
 
 const MenuDigital = () =>{
     const categories = dummyData.categories;
+
+    
+
     return(
         <>
             <Link to='/'> Regresar </Link>
             <p>este es el Menú digital</p>
             <p>categorias</p>
-            <ul>
+            
             {categories.map((categoria, index) => (
-                    <li key={index}>
-                        <h2>{categoria.name}</h2>
-                        <ul>
-                            {categoria.dishes && categoria.dishes.map((plato,index2)=>(
-                                <li key={index2}>
-                                    <h3>{plato.name}</h3>
-                                    <img src={plato.image} />
-                                    <p>{plato.description}</p>
-                                    <span>{plato.price}</span>
-                                </li>
-                            ))}
-                        </ul>
-                    </li>
+                    <div key={index}  >
+                        <h2 className="categories-title">{categoria.name}</h2>
+                        <div className="wrap-dish">
+                            {categoria.dishes && <CardDish dishes={categoria.dishes} />}
+                        </div>
+                    </div>
                 ))}
-            </ul>
+            
         </>
     )
 }
