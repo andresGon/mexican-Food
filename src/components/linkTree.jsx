@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 const LinkTree = () => {
     return(
         <>
-            <h1>Nombre del restaurante</h1>
-            <p>Redes sociales</p>
+            <h1>Restaurante mexicano</h1>
+            <p>Siguenos:</p>
             <ul>
                 <li>Instagram</li>
                 <li>TikTok</li>

@@ -5,6 +5,7 @@ const MenuDigital = () =>{
     const categories = dummyData.categories;
     return(
         <>
+            <Link to='/'> Regresar </Link>
             <p>este es el Menú digital</p>
             <p>categorias</p>
             <ul>
@@ -24,9 +25,7 @@ const MenuDigital = () =>{
                     </li>
                 ))}
             </ul>
-            <Link to='/'> Regresar </Link>
         </>
-        
     )
 }
 export default MenuDigital;

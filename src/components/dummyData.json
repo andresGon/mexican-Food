@@ -31,12 +31,57 @@
                     "description":"Totopos dorados bañados en una mezcla de quesos derretidos, jalapeños picantes, frijoles refritos y guacamole, perfectos para compartir",
                     "price":30000,
                     "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/nachos-con-queso-jalapenos_jgmsiq.jpg"
+                },
+                {
+                    "id":15,
+                    "name":"Caldito de Tomates",
+                    "description":"Un caldito ligero y sabroso hecho con tomates frescos, ajo y hierbas, ideal para abrir el apetito y preparar el paladar para el festín que sigue",
+                    "price":22000,
+                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/caldo-de-tomates_cmmayv.jpg"
                 }
             ]
         },
         {
             "id":2,
-            "name":"Platos fuertes"
+            "name":"Tacos",
+            "dishes":[
+                {
+                  "id": 21,
+                  "name": "Tacos al Pastor",
+                  "description": "Tacos clásicos de carne de cerdo marinada en adobo, asada en trompo, y servida con piña, cebolla, cilantro y salsa en tortillas de maíz.",
+                  "price": 20000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-al-pastor_rssiws.jpg"
+                },
+                {
+                  "id": 22,
+                  "name": "Tacos de Carne Asada",
+                  "description": "Tacos rellenos de carne de res a la parrilla, acompañados de cebolla, cilantro y una selección de salsas, servidos en tortillas de maíz.",
+                  "price": 23000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-carne-asada_g262oo.jpg"
+                },
+                {
+                  "id": 23,
+                  "name": "Tacos de Pollo",
+                  "description": "Jugosos tacos de pollo marinados en especias mexicanas, servidos con cebolla, cilantro y salsa, en tortillas de maíz.",
+                  "price": 17000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pollo_lxb4zf.jpg"
+                },
+                {
+                  "id": 24,
+                  "name": "Tacos de Carnitas",
+                  "description": "Tacos de cerdo cocido lentamente hasta estar tierno y jugoso, acompañado de cebolla, cilantro y salsa, servidos en tortillas de maíz.",
+                  "price": 20000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-carnitas_ozf4jl.jpg"
+                },
+                {
+                  "id": 25,
+                  "name": "Tacos de Pescado",
+                  "description": "Tacos con pescado fresco empanizado y frito, servido con col rallada, crema de limón, y salsa, en tortillas de maíz.",
+                  "price": 25000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg"
+                }
+              ]
+              
         }
     ]
 }
