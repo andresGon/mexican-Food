@@ -1,33 +1,26 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { modalContext } from '../../context/modalContext';
 import './cardDish.css'
-import Modal from '../modal/modal';
 
 const CardDish = ({ dishes }) => {
-  const [isOpen, setIsOpen] = useState(false);
-    const [selectedDish, setSelectedDish] = useState(null);
-
-    const handleOpen = (dish) => {
-        
-        setSelectedDish(dish);
-        console.log(dish.index)
-        setIsOpen(true);
-      };
-    const handleClose = () => {
-        setIsOpen(false);
-        setSelectedDish(null)
-    }
+    const { modalStatus,openModal } = useContext(modalContext)
     
+    const hadleClick = (content) =>{
+      openModal(content)
+      console.log(content)
+    }
   return (
     <>
       {dishes.map((dish, index) => (
         
-        <div key={index} className="card-dish"  onClick={() => handleOpen(dish)}>
+        <div key={index} className="card-dish"  onClick={()=>{hadleClick(dish)}}>
             <h3>{dish.name}</h3>
             <img src={dish.image} />
             <p><b>${dish.price.toLocaleString()}</b></p>
+            <p>{!modalStatus ? 'modal cerrada' : 'modal abierta'}</p>
         </div>
       ))}
-      {isOpen && <Modal isOpen={isOpen} onClose={handleClose} selectedDish={selectedDish} />}
+      
     </>
   );
 };
