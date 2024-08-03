@@ -5,15 +5,22 @@ const Modal = () => {
   const{closeModal,modalContent} = useContext(modalContext)
   if (!open) return null;
 
+  const handleClose = ()=>{
+    const modalWrap = document.querySelector('.modal')
+    modalWrap.classList.add('slideOutDown')
+    setTimeout(() => {
+      closeModal()
+    }, 450);
+  }
   return (
-    <div className="modal">
+    <div className="modal slideInUp">
         <div className="modal-inner">
             <h2>{modalContent.name}</h2>
             <img src={modalContent.image} alt={modalContent.name} />
             <p>{modalContent.description}</p>
             <b>${modalContent.price}</b> 
             <br></br>
-            <button onClick={()=>{closeModal()}}>Cerrar</button>
+            <button onClick={()=>{handleClose()}}>Cerrar</button>
         </div>
     </div>
   );

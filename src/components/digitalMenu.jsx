@@ -11,7 +11,7 @@ const MenuDigital = () =>{
     const { modalStatus } = useContext(modalContext)
 
     return(
-        <>
+        <div className='fadeIn'>
             <Link to='/'> Regresar </Link>
             <p>este es el Menú digital</p>
             <p>categorias</p>
@@ -29,7 +29,7 @@ const MenuDigital = () =>{
             <Modal></Modal>
         )}
             
-        </>
+        </div>
     )
 }
 export default MenuDigital;
