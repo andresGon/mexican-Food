@@ -5,12 +5,13 @@ const LinkTree = () => {
         <>
             <div className="mainWrap">
                 <h1>Restaurante mexicano</h1>
+                <p>hola</p>
                 <ul>
                     <li>Instagram</li>
                     <li>TikTok</li>
                     <li>X</li>
                 </ul>
-                <Link to="/menu">Menú Digital</Link>
+                <Link to="/menu">Menú Digital </Link>
             </div> 
         </>
     )

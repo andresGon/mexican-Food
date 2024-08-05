@@ -1,0 +1,17 @@
+
+.card{
+    &-dish{
+        display: grid;
+        grid-template-columns: 30% 60%;
+        flex-flow: column;
+        cursor: pointer;
+        padding: 20px;
+        width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+    &-colTxt{
+        padding: 0 0 0 20px;
+    }
+}

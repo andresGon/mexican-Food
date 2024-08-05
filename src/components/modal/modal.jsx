@@ -1,6 +1,6 @@
 import React, { useContext} from 'react';
 import { modalContext } from '../../context/modalContext';
-import './modal.css'
+import './modal.scss'
 const Modal = () => {
   const{closeModal,modalContent} = useContext(modalContext)
   if (!open) return null;
@@ -15,12 +15,15 @@ const Modal = () => {
   return (
     <div className="modal slideInUp">
         <div className="modal-inner">
-            <h2>{modalContent.name}</h2>
+            <div className='modal-btnBack' onClick={()=>{handleClose()}}>X</div>
             <img src={modalContent.image} alt={modalContent.name} />
-            <p>{modalContent.description}</p>
-            <b>${modalContent.price}</b> 
-            <br></br>
-            <button onClick={()=>{handleClose()}}>Cerrar</button>
+            <div className="modal-colTxt">
+              <h2>{modalContent.name}</h2>
+              <p>{modalContent.description}</p>
+              <b>${modalContent.price}</b> 
+              <br></br>
+              
+            </div>
         </div>
     </div>
   );
