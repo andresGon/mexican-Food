@@ -1,6 +1,12 @@
 .header{
+    width: calc(100% - 40px);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
+    position: fixed;
+    background: #fff;
+}
+.header+.categories-wrap{
+    padding: 70px 0 0 0;
 }

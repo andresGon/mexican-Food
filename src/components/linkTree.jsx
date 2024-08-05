@@ -4,14 +4,18 @@ const LinkTree = () => {
     return(
         <>
             <div className="mainWrap">
-                <h1>Restaurante mexicano</h1>
-                <p>hola</p>
-                <ul>
-                    <li>Instagram</li>
-                    <li>TikTok</li>
-                    <li>X</li>
-                </ul>
-                <Link to="/menu">Menú Digital </Link>
+                <div className="linktree-background">
+                    <div className="linktree-colTxt">
+                        <h1>Fuego y Maíz</h1>
+                        <p>Comida mexicana</p>
+                    </div>
+                    <div className="linktree-social">
+                        <a>Instagram</a>
+                        <a>TikTok</a>
+                        <a>X</a>
+                    </div>
+                    <Link to="/menu" className="btnMenu">Menú Digital </Link>
+                </div>
             </div> 
         </>
     )
