@@ -14,10 +14,22 @@
       height: 100%;
       img{
         width: 100%;
+        display: block;
       }
     }
     &-colTxt{
-      padding: 20px;
+      padding: 2.5rem;
+      margin-top: -20%;
+      background: #fff;
+      position: relative;
+      border-radius: 29px;
+      display: flex;
+      flex-flow: column;
+      gap: .8rem;
+      h2{
+        font-size: 2.3rem;
+        line-height: 1;
+      }
     }
     &-btnBack{
       width: 40px;
@@ -31,7 +43,22 @@
       align-items: center;
       justify-content: center;
       img{
-        width: 60%;
+        width: 45%;
+      }
+    }
+    &-btnLike{
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 40%;
       }
     }
   }

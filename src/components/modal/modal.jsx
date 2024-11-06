@@ -2,7 +2,7 @@ import React, { useContext} from 'react';
 import { modalContext } from '../../context/modalContext';
 import './modal.scss';
 import iconClose from '../../assets/close-icon.svg';
-
+import iconLike from '../../assets/like-icon.svg'
 const Modal = () => {
   const{closeModal,modalContent} = useContext(modalContext)
   if (!open) return null;
@@ -17,6 +17,9 @@ const Modal = () => {
   return (
     <div className="modal slideInUp">
         <div className="modal-inner">
+            <div className="modal-btnLike">
+              <img src={iconLike} alt="" />
+            </div>
             <div className='modal-btnBack' onClick={()=>{handleClose()}}>
               <img src={iconClose} alt="" />
             </div>
