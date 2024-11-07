@@ -26,9 +26,14 @@
       display: flex;
       flex-flow: column;
       gap: .8rem;
+      color: var(--cafe);
       h2{
         font-size: 2.3rem;
         line-height: 1;
+        color: var(--magenta);
+      }
+      p{
+        font-size: 1.1rem;
       }
     }
     &-btnBack{

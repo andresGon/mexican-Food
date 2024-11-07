@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --magenta: #f72a7b;
+  --cafe:#a52b4d;
+}
+
+
 .wrap-dish{
   display: flex;
   flex-wrap: wrap;
@@ -10,6 +17,7 @@ html, body, * {
   margin: 0;
   padding: 0;
 }
+
 
 .mainWrap{
     height: 100vh;
@@ -24,42 +32,69 @@ html, body, * {
 .categories-title{
     padding: 0 20px;
     font-size: 2.1rem;
+    color: var(--magenta);
 }
 
 .mainWrap{
   background-color: rgba($color: #000000, $alpha: 0.2);
-  background-image: url('./assets/linktree-background.jpg');
+  background-image: url('./assets/mexican-bg.jpg');
   background-position: center;
   h1{
     color: #fff;
   }
 }
 
-.linktree-background{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  padding: 40% 0;
-  background: linear-gradient(0deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
-  color: #fff;
-  text-align: center;
+.linktree{
+  &-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 30% 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 100%);
+    color: #fff;
+    text-align: center;
+  }
+  &-colTxt, &-social{
+    display: flex;
+    flex-flow: column;
+    color: var(--magenta);
+  }
+   &-social{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+    color: var(--magenta);
+    font-weight: bold;
+    font-size: 1.2rem;
+    a{
+      display: flex;
+      gap: 5px;
+      img{
+        display: block;
+        width: 20px;
+      }
+    }
+  }
+  &-logo{
+    display: block;
+    width: 80vw;
+  }
 }
-.linktree-colTxt, .linktree-social{
-  display: flex;
-  flex-flow: column;
-}
+
+
 .btnMenu{
-  background: #ff3131;
+  background: var(--magenta);
   color: #fff;
   font-size: 20px;
   width: 80%;
-  border-radius: 20px;
+  border-radius: 6px;
   padding: 10px 0;
   text-decoration: none;
-  font-weight: bold;
+  font-weight:600;
 }
 
 @keyframes slideInUp {
@@ -111,3 +146,16 @@ html, body, * {
   animation-duration: .5s;
 }
 
+/* reponsive tablet - desktop*/
+
+
+
+
+
+@media (min-width: 767px) {
+  .wrap-dish{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+}

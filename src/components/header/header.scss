@@ -6,6 +6,10 @@
     border-bottom: 1px solid #ccc;
     position: fixed;
     background: #fff;
+    color: var(--cafe);
+    a{
+        color: var(--cafe);
+    }
 }
 .header+.categories-wrap{
     padding: 70px 0 0 0;

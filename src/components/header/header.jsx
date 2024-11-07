@@ -3,8 +3,8 @@ import './header.scss'
 const Header = () =>{
     return(
         <header className="header">
-            <p>header</p>
             <Link to='/'> Regresar </Link>    
+            <p>Fuego y Maíz</p>
         </header>
         
     )

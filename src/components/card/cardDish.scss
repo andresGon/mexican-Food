@@ -15,5 +15,11 @@
     }
     &-colTxt{
         padding: 0 0 0 20px;
+        h3{
+            color: var(--magenta);
+        }
+        p{
+            color: var(--cafe);
+        }
     }
 }
