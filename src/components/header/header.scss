@@ -7,8 +7,20 @@
     position: fixed;
     background: #fff;
     color: var(--cafe);
-    a{
-        color: var(--cafe);
+    &-logo{
+        display: block;
+        width: 120px;
+    }
+    &-back{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--magenta);
+        font-weight: 600;
+        font-size: 1.1rem;
+        img{
+            height: 20px;
+        }
     }
 }
 .header+.categories-wrap{
