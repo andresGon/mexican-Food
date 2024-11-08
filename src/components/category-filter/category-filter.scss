@@ -1,0 +1,90 @@
+.category{
+    &-filter{
+        position: fixed;
+        top: 63px;
+        background: #fff;
+        display: flex;
+        flex-flow: wrap;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    &-button{
+        color: var(--magenta);
+    }
+    &-wrap{
+        &:nth-child(1){
+            margin-top: 120px;
+        }
+    }
+}
+
+
+
+.category-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  
+    &.active {
+      background-color: #fdb045;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+  
+
+
+
+    .category-filter-scroll {
+      display: flex;
+      overflow-x: auto;  // Permite el desplazamiento horizontal
+      padding: 8px 0;
+      gap: 8px;  // Espacio entre los botones
+  
+      /* Ocultar la barra de desplazamiento en algunos navegadores (opcional) */
+      scrollbar-width: thin;  // Para Firefox
+      scrollbar-color: #ccc transparent;
+  
+      &::-webkit-scrollbar {
+        height: 6px;  // Altura de la barra de desplazamiento
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 10px;
+      }
+  
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+    }
+  
+    .category-button {
+      padding: 8px 16px;
+      border: none;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      cursor: pointer;
+      white-space: nowrap;  // Evita que el texto se divida en varias líneas
+      font-size: 1rem;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #e0e0e0;
+      }
+  
+      &.active {
+        background-color: #ddd;
+      }
+    }
+
+  
