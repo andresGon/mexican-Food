@@ -51,19 +51,37 @@
         width: 45%;
       }
     }
-    &-btnLike{
-      width: 40px;
+    &-category{
+      width: auto;
       height: 40px;
       position: absolute;
       top: 20px;
       left: 20px;
-      background: #fff;
-      border-radius: 50%;
+      background: var(--magenta);
+      border-radius: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 0 1rem;
+      font-weight: 600;
+      color: #fff;
       img{
         width: 40%;
+      }
+    }
+    &-ingredients{
+      display: flex;
+      flex-flow: wrap;
+      width: 100%;
+      gap: 6px;
+      li{
+        list-style: none;
+        border: 1px solid var(--magenta);
+        padding: 0.2rem .8rem;
+        color: var(--magenta);
+        font-weight: 600;
+        border-radius: 20px;
+        font-size: .8rem;
       }
     }
   }

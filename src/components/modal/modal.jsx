@@ -17,8 +17,8 @@ const Modal = () => {
   return (
     <div className="modal slideInUp">
         <div className="modal-inner">
-            <div className="modal-btnLike">
-              <img src={iconLike} alt="" />
+            <div className="modal-category">
+              {modalContent.category}
             </div>
             <div className='modal-btnBack' onClick={()=>{handleClose()}}>
               <img src={iconClose} alt="" />
@@ -26,7 +26,7 @@ const Modal = () => {
             <img src={modalContent.image} alt={modalContent.name} />
             <div className="modal-colTxt">
               <h2>{modalContent.name}</h2>
-              <ul>
+              <ul className='modal-ingredients'>
                 {modalContent.ingredients.map((ingredient, index) => (
                   <li key={index}>{ingredient}</li>
                 ))}

@@ -121,6 +121,316 @@
                   "ingredients": ["frito", "rallada", "limón", "salsa", "maíz"]
               }
           ]
-      }
+      },
+      {
+        "id": 3,
+        "name": "Platos Fuertes",
+        "dishes": [
+            {
+                "id": 31,
+                "name": "Burritos",
+                "description": "Burritos de carne asada o pollo, rellenos de frijoles, queso, guacamole y arroz, envueltos en una suave tortilla de harina.",
+                "price": 28000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Platos principales",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["pollo", "frijoles", "queso", "guacamole", "arroz", "harina"]
+            },
+            {
+                "id": 32,
+                "name": "Enchiladas",
+                "description": "Enchiladas rellenas de queso y pollo, bañadas en salsa roja o verde, con crema, queso fresco y lechuga.",
+                "price": 26000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Platos principales",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["queso", "pollo", "salsa", "crema", "lechuga"]
+            },
+            {
+                "id": 33,
+                "name": "Chilaquiles",
+                "description": "Chilaquiles crujientes en salsa verde o roja, servidos con queso, crema, cebolla y pollo desmenuzado.",
+                "price": 24000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Platos principales",
+                "rating": 3,
+                "favorite": false,
+                "ingredients": ["salsa", "queso", "crema", "cebolla", "pollo"]
+            },
+            {
+                "id": 34,
+                "name": "Fajitas de Res",
+                "description": "Fajitas de carne de res sazonada, acompañadas de pimientos, cebolla y tortillas de maíz o harina.",
+                "price": 30000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Platos principales",
+                "rating": 2,
+                "favorite": false,
+                "ingredients": ["res", "pimientos", "cebolla", "tortillas"]
+            },
+            {
+                "id": 35,
+                "name": "Cochinita Pibil",
+                "description": "Cochinita pibil de cerdo marinado en achiote y cocido lentamente, acompañado de cebolla morada y tortillas.",
+                "price": 32000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Platos principales",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["cerdo", "achiote", "cebolla", "tortillas"]
+            }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Antojitos y otros platos",
+        "dishes": [
+            {
+                "id": 41,
+                "name": "Quesadillas",
+                "description": "Quesadillas de queso derretido en tortillas de maíz, servidas con guacamole y pico de gallo.",
+                "price": 18000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Antojitos y otros platos",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["queso", "tortillas", "guacamole", "pico de gallo"]
+            },
+            {
+                "id": 42,
+                "name": "Sincronizadas",
+                "description": "Sincronizadas de jamón y queso en tortillas de harina, doradas a la perfección.",
+                "price": 15000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Antojitos y otros platos",
+                "rating": 3,
+                "favorite": false,
+                "ingredients": ["jamón", "queso", "tortillas de harina"]
+            },
+            {
+                "id": 43,
+                "name": "Molletes",
+                "description": "Molletes con frijoles refritos, queso gratinado y pico de gallo en pan bolillo.",
+                "price": 20000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Antojitos y otros platos",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["frijoles refritos", "queso", "pico de gallo", "pan bolillo"]
+            },
+            {
+                "id": 44,
+                "name": "Tamales",
+                "description": "Tamales de masa de maíz rellenos de carne y cocidos en hojas de plátano.",
+                "price": 22000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Antojitos y otros platos",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["masa de maíz", "carne", "hojas de plátano"]
+            },
+            {
+                "id": 45,
+                "name": "Tortas",
+                "description": "Tortas mexicanas rellenas de carne de cerdo, frijoles, aguacate y jalapeños en pan crujiente.",
+                "price": 25000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Antojitos y otros platos",
+                "rating": 3,
+                "favorite": false,
+                "ingredients": ["carne de cerdo", "frijoles", "aguacate", "jalapeños", "pan crujiente"]
+            }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Sopas y caldos",
+        "dishes": [
+            {
+                "id": 51,
+                "name": "Pozole",
+                "description": "Pozole tradicional de maíz blanco y carne de cerdo, servido con lechuga, rábano, cebolla y limón.",
+                "price": 30000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Sopas y caldos",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["maíz", "cerdo", "lechuga", "rábano", "cebolla", "limón"]
+            },
+            {
+                "id": 52,
+                "name": "Caldo de Pollo",
+                "description": "Caldo de pollo con verduras frescas, servido con cebolla, cilantro y un toque de limón.",
+                "price": 20000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Sopas y caldos",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["pollo", "verduras", "cebolla", "cilantro", "limón"]
+            },
+            {
+                "id": 53,
+                "name": "Caldo Tlalpeño",
+                "description": "Caldo tlalpeño con pollo, garbanzos y vegetales, servido con chile chipotle para un toque picante.",
+                "price": 22000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Sopas y caldos",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["pollo", "garbanzos", "vegetales", "chile chipotle"]
+            },
+            {
+                "id": 54,
+                "name": "Menudo",
+                "description": "Menudo, sopa de callos cocidos en caldo de chiles y especias, servido con cebolla y limón.",
+                "price": 25000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Sopas y caldos",
+                "rating": 3,
+                "favorite": false,
+                "ingredients": ["callos", "chiles", "especias", "cebolla", "limón"]
+            },
+            {
+                "id": 55,
+                "name": "Sopa de Mariscos",
+                "description": "Sopa de mariscos con camarones, pescado y almejas en caldo de tomate y especias.",
+                "price": 28000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Sopas y caldos",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["camarones", "pescado", "almejas", "caldo de tomate", "especias"]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Postres",
+        "dishes": [
+            {
+                "id": 61,
+                "name": "Churros",
+                "description": "Churros crujientes espolvoreados con azúcar y canela, acompañados de chocolate caliente para mojar.",
+                "price": 12000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Postres",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["azúcar", "canela", "chocolate"]
+            },
+            {
+                "id": 62,
+                "name": "Flan Mexicano",
+                "description": "Flan cremoso de caramelo, con un toque de vainilla, preparado al estilo tradicional mexicano.",
+                "price": 15000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Postres",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["caramelo", "vainilla"]
+            },
+            {
+                "id": 63,
+                "name": "Tres Leches",
+                "description": "Pastel tres leches esponjoso y húmedo, cubierto con crema batida y fresas frescas.",
+                "price": 18000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Postres",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["leche", "crema batida", "fresas"]
+            },
+            {
+                "id": 64,
+                "name": "Arroz con Leche",
+                "description": "Arroz con leche cremoso, con canela y pasas, servido frío o caliente según tu preferencia.",
+                "price": 10000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Postres",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["arroz", "canela", "pasas"]
+            },
+            {
+                "id": 65,
+                "name": "Pastel de Elote",
+                "description": "Pastel de elote dulce y esponjoso, preparado con maíz fresco y un toque de leche condensada.",
+                "price": 16000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Postres",
+                "rating": 3,
+                "favorite": false,
+                "ingredients": ["maíz", "leche condensada"]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Bebidas",
+        "dishes": [
+            {
+                "id": 71,
+                "name": "Margarita",
+                "description": "Margarita clásica preparada con tequila, jugo de limón fresco y un toque de licor de naranja, servida con sal en el borde del vaso.",
+                "price": 18000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Bebidas",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["tequila", "limón", "licor de naranja", "sal"]
+            },
+            {
+                "id": 72,
+                "name": "Michelada",
+                "description": "Michelada refrescante con cerveza, jugo de limón, salsa inglesa, salsa picante y borde de sal.",
+                "price": 15000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Bebidas",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["cerveza", "limón", "salsa inglesa", "salsa picante", "sal"]
+            },
+            {
+                "id": 73,
+                "name": "Horchata",
+                "description": "Horchata de arroz refrescante con un toque de canela y azúcar, servida bien fría.",
+                "price": 10000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Bebidas",
+                "rating": 3,
+                "favorite": false,
+                "ingredients": ["arroz", "canela", "azúcar"]
+            },
+            {
+                "id": 74,
+                "name": "Agua de Jamaica",
+                "description": "Agua de jamaica con un sabor dulce y refrescante, ideal para acompañar cualquier platillo.",
+                "price": 9000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Bebidas",
+                "rating": 4,
+                "favorite": false,
+                "ingredients": ["jamaica", "azúcar"]
+            },
+            {
+                "id": 75,
+                "name": "Tequila Sunrise",
+                "description": "Tequila Sunrise con tequila, jugo de naranja y granadina, creando un efecto visual de amanecer en el vaso.",
+                "price": 20000,
+                "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                "category": "Bebidas",
+                "rating": 5,
+                "favorite": false,
+                "ingredients": ["tequila", "jugo de naranja", "granadina"]
+            }
+        ]
+    }
+    
+    
+    
+    
+    
   ]
 }
