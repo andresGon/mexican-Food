@@ -26,6 +26,11 @@ const Modal = () => {
             <img src={modalContent.image} alt={modalContent.name} />
             <div className="modal-colTxt">
               <h2>{modalContent.name}</h2>
+              <ul>
+                {modalContent.ingredients.map((ingredient, index) => (
+                  <li key={index}>{ingredient}</li>
+                ))}
+              </ul>
               <p>{modalContent.description}</p>
               <b>${modalContent.price}</b> 
               <br></br>

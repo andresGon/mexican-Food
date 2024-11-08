@@ -1,87 +1,126 @@
 {
-    "categories":[
-        {
-            "id":1,
-            "name":"Entradas",
-            "dishes":[
-                {
-                    "id":11,
-                    "name":"Guacamole con Totopos",
-                    "description":"El guacamole fresco con totopos crujientes es la combinación perfecta de aguacates cremosos, tomates jugosos, cebolla y un toque de limón, servido con chips de maíz dorados",
-                    "price":25000,
-                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1721408342/Default_Vibrant_high_dynamic_range_HDR_photography_of_a_mouthw_2_ffdltp.jpg"
-                },
-                {
-                    "id":12,
-                    "name":"Sopa de Tortillas",
-                    "description":"Esta sopa reconfortante mezcla caldo de pollo, tiras de tortilla frita, chiles, tomate, y se adorna con crema, queso y aguacate, ofreciendo una explosión de sabores en cada cucharada",
-                    "price":20000,
-                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722350355/sopa-de-tortillas_c4m83o.jpg"
-                },
-                {
-                    "id":13,
-                    "name":"Tostadas de Tinga de Pollo",
-                    "description":"Tostadas crujientes cubiertas con una mezcla jugosa de pollo desmenuzado en salsa de tomate y chipotle, coronadas con lechuga fresca, crema, queso y aguacate",
-                    "price":28000,
-                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351505/tostada-tinga-pollo_vzgrct.jpg"
-                },
-                {
-                    "id":14,
-                    "name":"Nachos con Queso y Jalapeños",
-                    "description":"Totopos dorados bañados en una mezcla de quesos derretidos, jalapeños picantes, frijoles refritos y guacamole, perfectos para compartir",
-                    "price":30000,
-                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/nachos-con-queso-jalapenos_jgmsiq.jpg"
-                },
-                {
-                    "id":15,
-                    "name":"Caldito de Tomates",
-                    "description":"Un caldito ligero y sabroso hecho con tomates frescos, ajo y hierbas, ideal para abrir el apetito y preparar el paladar para el festín que sigue",
-                    "price":22000,
-                    "image":"https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/caldo-de-tomates_cmmayv.jpg"
-                }
-            ]
-        },
-        {
-            "id":2,
-            "name":"Tacos",
-            "dishes":[
-                {
+  "categories": [
+      {
+          "id": 1,
+          "name": "Entradas",
+          "dishes": [
+              {
+                  "id": 11,
+                  "name": "Guacamole con Totopos",
+                  "description": "El guacamole fresco con totopos crujientes es la combinación perfecta de aguacates cremosos, tomates jugosos, cebolla y un toque de limón, servido con chips de maíz dorados",
+                  "price": 25000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1721408342/Default_Vibrant_high_dynamic_range_HDR_photography_of_a_mouthw_2_ffdltp.jpg",
+                  "category": "Entradas",
+                  "rating": 3,
+                  "favorite": false,
+                  "ingredients": ["cremosos", "jugosos", "limón", "dorados"]
+              },
+              {
+                  "id": 12,
+                  "name": "Sopa de Tortillas",
+                  "description": "Esta sopa reconfortante mezcla caldo de pollo, tiras de tortilla frita, chiles, tomate, y se adorna con crema, queso y aguacate, ofreciendo una explosión de sabores en cada cucharada",
+                  "price": 20000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722350355/sopa-de-tortillas_c4m83o.jpg",
+                  "category": "Entradas",
+                  "rating": 2,
+                  "favorite": false,
+                  "ingredients": ["pollo", "frita", "chiles", "tomate", "crema", "aguacate", "cucharada"]
+              },
+              {
+                  "id": 13,
+                  "name": "Tostadas de Tinga de Pollo",
+                  "description": "Tostadas crujientes cubiertas con una mezcla jugosa de pollo desmenuzado en salsa de tomate y chipotle, coronadas con lechuga fresca, crema, queso y aguacate",
+                  "price": 28000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351505/tostada-tinga-pollo_vzgrct.jpg",
+                  "category": "Entradas",
+                  "rating": 5,
+                  "favorite": false,
+                  "ingredients": ["chipotle", "fresca", "crema", "aguacate"]
+              },
+              {
+                  "id": 14,
+                  "name": "Nachos con Queso y Jalapeños",
+                  "description": "Totopos dorados bañados en una mezcla de quesos derretidos, jalapeños picantes, frijoles refritos y guacamole, perfectos para compartir",
+                  "price": 30000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/nachos-con-queso-jalapenos_jgmsiq.jpg",
+                  "category": "Entradas",
+                  "rating": 5,
+                  "favorite": false,
+                  "ingredients": ["derretidos", "picantes", "guacamole", "compartir"]
+              },
+              {
+                  "id": 15,
+                  "name": "Caldito de Tomates",
+                  "description": "Un caldito ligero y sabroso hecho con tomates frescos, ajo y hierbas, ideal para abrir el apetito y preparar el paladar para el festín que sigue",
+                  "price": 22000,
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722351504/caldo-de-tomates_cmmayv.jpg",
+                  "category": "Entradas",
+                  "rating": 1,
+                  "favorite": false,
+                  "ingredients": ["frescos", "hierbas", "sigue"]
+              }
+          ]
+      },
+      {
+          "id": 2,
+          "name": "Tacos",
+          "dishes": [
+              {
                   "id": 21,
                   "name": "Tacos al Pastor",
                   "description": "Tacos clásicos de carne de cerdo marinada en adobo, asada en trompo, y servida con piña, cebolla, cilantro y salsa en tortillas de maíz.",
                   "price": 20000,
-                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-al-pastor_rssiws.jpg"
-                },
-                {
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-al-pastor_rssiws.jpg",
+                  "category": "Tacos",
+                  "rating": 3,
+                  "favorite": false,
+                  "ingredients": ["adobo", "trompo", "piña", "cebolla", "maíz"]
+              },
+              {
                   "id": 22,
                   "name": "Tacos de Carne Asada",
                   "description": "Tacos rellenos de carne de res a la parrilla, acompañados de cebolla, cilantro y una selección de salsas, servidos en tortillas de maíz.",
                   "price": 23000,
-                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-carne-asada_g262oo.jpg"
-                },
-                {
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-carne-asada_g262oo.jpg",
+                  "category": "Tacos",
+                  "rating": 4,
+                  "favorite": false,
+                  "ingredients": ["parrilla", "cebolla", "salsas", "maíz"]
+              },
+              {
                   "id": 23,
                   "name": "Tacos de Pollo",
                   "description": "Jugosos tacos de pollo marinados en especias mexicanas, servidos con cebolla, cilantro y salsa, en tortillas de maíz.",
                   "price": 17000,
-                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pollo_lxb4zf.jpg"
-                },
-                {
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pollo_lxb4zf.jpg",
+                  "category": "Tacos",
+                  "rating": 2,
+                  "favorite": false,
+                  "ingredients": ["mexicanas", "cebolla", "salsa", "maíz"]
+              },
+              {
                   "id": 24,
                   "name": "Tacos de Carnitas",
                   "description": "Tacos de cerdo cocido lentamente hasta estar tierno y jugoso, acompañado de cebolla, cilantro y salsa, servidos en tortillas de maíz.",
                   "price": 20000,
-                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-carnitas_ozf4jl.jpg"
-                },
-                {
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-carnitas_ozf4jl.jpg",
+                  "category": "Tacos",
+                  "rating": 2,
+                  "favorite": false,
+                  "ingredients": ["jugoso", "cebolla", "salsa", "maíz"]
+              },
+              {
                   "id": 25,
                   "name": "Tacos de Pescado",
                   "description": "Tacos con pescado fresco empanizado y frito, servido con col rallada, crema de limón, y salsa, en tortillas de maíz.",
                   "price": 25000,
-                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg"
-                }
-              ]
-              
-        }
-    ]
+                  "image": "https://res.cloudinary.com/dzlg5jcqj/image/upload/v1722454793/tacos-de-pescado_kpbsg2.jpg",
+                  "category": "Tacos",
+                  "rating": 3,
+                  "favorite": false,
+                  "ingredients": ["frito", "rallada", "limón", "salsa", "maíz"]
+              }
+          ]
+      }
+  ]
 }
