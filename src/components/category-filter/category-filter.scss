@@ -24,15 +24,14 @@
 }
 
 .category-button {
+    cursor: pointer;
+    white-space: nowrap; 
     padding: 8px 16px;
     border: none;
     background-color: #f0f0f0;
     border-radius: 5px;
-    cursor: pointer;
-    white-space: nowrap;
     font-size: 1rem;
     transition: background-color 0.3s;
-  
     &:hover {
       background-color: #e0e0e0;
     }
@@ -50,7 +49,7 @@
     .category-filter-scroll {
       display: flex;
       overflow-x: auto;  // Permite el desplazamiento horizontal
-      padding: 8px 0;
+      padding: 8px 20px;
       gap: 8px;  // Espacio entre los botones
   
       /* Ocultar la barra de desplazamiento en algunos navegadores (opcional) */
@@ -70,24 +69,3 @@
         background: transparent;
       }
     }
-  
-    .category-button {
-      padding: 8px 16px;
-      border: none;
-      background-color: #f0f0f0;
-      border-radius: 5px;
-      cursor: pointer;
-      white-space: nowrap;  // Evita que el texto se divida en varias líneas
-      font-size: 1rem;
-      transition: background-color 0.3s;
-  
-      &:hover {
-        background-color: #e0e0e0;
-      }
-  
-      &.active {
-        background-color: #ddd;
-      }
-    }
-
-  
