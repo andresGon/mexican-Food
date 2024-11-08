@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useContext, useRef, useState, useEffect } from 'react';
 import { modalContext } from '../context/modalContext';
 import dummyData from './dummyData.json';
 import CardDish from "./card/cardDish";
@@ -15,7 +15,34 @@ const MenuDigital = () => {
 
   // Crear referencias para cada categoría
   const categoryRefs = useRef({});
-  
+
+  // Observador de intersección para actualizar la categoría visible
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setSelectedCategory(entry.target.getAttribute("data-category"));
+          }
+        });
+      },
+      {
+        rootMargin: "-50% 0px -50% 0px", // Activa cuando el elemento está en el centro del viewport
+        threshold: 0
+      }
+    );
+
+    // Observar cada categoría
+    Object.values(categoryRefs.current).forEach((categoryRef) => {
+      if (categoryRef) observer.observe(categoryRef);
+    });
+
+    // Limpieza del observador
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   // Función para manejar el desplazamiento y seleccionar la categoría con un ajuste de 100px
   const handleSelectCategory = (categoryName) => {
     setSelectedCategory(categoryName); // Establece la categoría seleccionada
@@ -48,6 +75,7 @@ const MenuDigital = () => {
           className={`category-wrap ${index === 0 ? 'first' : ''}`}
           key={index}
           ref={(el) => (categoryRefs.current[categoria.name] = el)}
+          data-category={categoria.name} // Para identificar la categoría
         >
           <h2 className="categories-title">{categoria.name}</h2>
           <div className="wrap-dish">
