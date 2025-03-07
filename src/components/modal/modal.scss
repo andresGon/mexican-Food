@@ -48,8 +48,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: .3s;
       img{
         width: 45%;
+      }
+      &:hover{
+        transform: rotate(180deg);
       }
     }
     &-category{
