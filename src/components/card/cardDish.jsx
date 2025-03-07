@@ -27,12 +27,17 @@ const CardDish = ({ dishes }) => {
       </span>
     );
   };
-
   return (
     <>
       {dishes.map((dish, index) => (
         <div key={index} className="card-dish" onClick={() => handleClick(dish)}>
-          <img src={dish.image} alt={dish.name} />
+          <img 
+            src={dish.image} 
+            alt={dish.name} 
+            loading="lazy"
+            width="100%"
+            height="auto"
+          />
           <div className="card-colTxt">
             <h3>{dish.name}</h3>
             <span>{renderRatingStars(dish.rating)}</span>
