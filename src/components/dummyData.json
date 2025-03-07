@@ -24,7 +24,7 @@
                   "category": "Entradas",
                   "rating": 2,
                   "favorite": false,
-                  "ingredients": ["pollo", "frita", "chiles", "tomate", "crema", "aguacate", "cucharada"]
+                  "ingredients": ["pollo", "chiles", "tomate", "crema", "aguacate"]
               },
               {
                   "id": 13,
@@ -35,7 +35,7 @@
                   "category": "Entradas",
                   "rating": 5,
                   "favorite": false,
-                  "ingredients": ["chipotle", "fresca", "crema", "aguacate"]
+                  "ingredients": ["chipotle", "crema", "aguacate"]
               },
               {
                   "id": 14,
@@ -46,7 +46,7 @@
                   "category": "Entradas",
                   "rating": 5,
                   "favorite": false,
-                  "ingredients": ["derretidos", "picantes", "guacamole", "compartir"]
+                  "ingredients": ["Totopos", "picantes", "guacamole", "queso"]
               },
               {
                   "id": 15,
@@ -57,7 +57,7 @@
                   "category": "Entradas",
                   "rating": 1,
                   "favorite": false,
-                  "ingredients": ["frescos", "hierbas", "sigue"]
+                  "ingredients": ["tomates", "ajo", "hierbas"]
               }
           ]
       },
@@ -85,7 +85,7 @@
                   "category": "Tacos",
                   "rating": 4,
                   "favorite": false,
-                  "ingredients": ["parrilla", "cebolla", "salsas", "maíz"]
+                  "ingredients": ["carne", "cebolla", "cilantro", "maíz"]
               },
               {
                   "id": 23,
@@ -96,7 +96,7 @@
                   "category": "Tacos",
                   "rating": 2,
                   "favorite": false,
-                  "ingredients": ["mexicanas", "cebolla", "salsa", "maíz"]
+                  "ingredients": ["pollo", "cebolla", "cilantro", "maíz"]
               },
               {
                   "id": 24,
@@ -107,7 +107,7 @@
                   "category": "Tacos",
                   "rating": 2,
                   "favorite": false,
-                  "ingredients": ["jugoso", "cebolla", "salsa", "maíz"]
+                  "ingredients": ["cerdo", "cebolla", "cilantro", "maíz"]
               },
               {
                   "id": 25,
@@ -118,7 +118,7 @@
                   "category": "Tacos",
                   "rating": 3,
                   "favorite": false,
-                  "ingredients": ["frito", "rallada", "limón", "salsa", "maíz"]
+                  "ingredients": ["pescado", "col", "limón", "maíz"]
               }
           ]
       },
@@ -146,7 +146,7 @@
                 "category": "Platos Fuertes",
                 "rating": 5,
                 "favorite": false,
-                "ingredients": ["queso", "pollo", "salsa", "crema", "lechuga"]
+                "ingredients": ["queso", "pollo", "cilantro", "crema", "lechuga"]
             },
             {
                 "id": 33,
@@ -157,7 +157,7 @@
                 "category": "Platos Fuertes",
                 "rating": 3,
                 "favorite": false,
-                "ingredients": ["salsa", "queso", "crema", "cebolla", "pollo"]
+                "ingredients": ["tomates", "queso", "crema", "cebolla", "pollo"]
             },
             {
                 "id": 34,
